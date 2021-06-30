@@ -1,0 +1,30 @@
+name: web-build
+
+on:
+  pull_request_target:
+    types: [edited, opened, reopened]
+  workflow_run:
+     workflows: ["push-trigger-workflow-dispatch"]
+     types: [completed]
+jobs:
+  build_and_test:
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        shell: bash
+    services:
+      mysql:
+        image: mysql:5.7
+        env:
+          MYSQL_ROOT_PASSWORD: password
+          MYSQL_DATABASE: test
+        ports:
+          - 33306:3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: secret-to-base64
+        uses: thomastvedt/secret-to-base64@v0.5
+        with:
+          secret: ${{ secrets.STRATUS_GITHUB_TOKEN }}
