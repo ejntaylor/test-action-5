@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "core-js": "^3.17.0",
+    "core-js": "^3.17.2",
     "laravel-mix": "5.0.9",
     "node-sass": "5.0.0",
     "prettier": "2.3.2",
