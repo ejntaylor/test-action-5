@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b282e00f886b2bc05589662643a35ff9",
+    "content-hash": "20265177c9533ef8c10d8b8efa946962",
     "packages": [
         {
             "name": "brick/math",
@@ -533,16 +533,16 @@
         },
         {
             "name": "laravel/telescope",
-            "version": "v3.5.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/telescope.git",
-                "reference": "2e44c32c4e0b2442b118e73116582d1236b621f5"
+                "reference": "a8d2e1106ba655006fde47a0b7ed53851c6398f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/telescope/zipball/2e44c32c4e0b2442b118e73116582d1236b621f5",
-                "reference": "2e44c32c4e0b2442b118e73116582d1236b621f5",
+                "url": "https://api.github.com/repos/laravel/telescope/zipball/a8d2e1106ba655006fde47a0b7ed53851c6398f5",
+                "reference": "a8d2e1106ba655006fde47a0b7ed53851c6398f5",
                 "shasum": ""
             },
             "require": {
@@ -594,9 +594,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/telescope/issues",
-                "source": "https://github.com/laravel/telescope/tree/3.x"
+                "source": "https://github.com/laravel/telescope/tree/v3.5.1"
             },
-            "time": "2020-05-14T14:45:32+00:00"
+            "time": "2020-07-28T19:12:33+00:00"
         },
         {
             "name": "league/commonmark",
@@ -1413,16 +1413,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.9",
+            "version": "3.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "a127a5133804ff2f47ae629dd529b129da616ad7"
+                "reference": "6e794226a35159eb06f355efe59a0075a16551dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/a127a5133804ff2f47ae629dd529b129da616ad7",
-                "reference": "a127a5133804ff2f47ae629dd529b129da616ad7",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/6e794226a35159eb06f355efe59a0075a16551dd",
+                "reference": "6e794226a35159eb06f355efe59a0075a16551dd",
                 "shasum": ""
             },
             "require": {
@@ -1504,7 +1504,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.9"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.11"
             },
             "funding": [
                 {
@@ -1520,7 +1520,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-14T06:54:45+00:00"
+            "time": "2021-10-27T03:01:46+00:00"
         },
         {
             "name": "psr/container",
