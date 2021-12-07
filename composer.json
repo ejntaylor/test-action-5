@@ -1,6 +1,6 @@
 {
     "require": {
-        "laravel/framework": "7.30.5",
+        "laravel/framework": "7.30.6",
         "laravel/telescope": "3.5.1"
     }
 }
