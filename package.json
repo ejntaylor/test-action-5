@@ -4,7 +4,7 @@
     "laravel-mix": "5.0.9",
     "node-sass": "5.0.0",
     "prettier": "2.5.1",
-    "vue-i18n": "^8.26.8",
+    "vue-i18n": "^8.27.0",
     "vue-router": "3.5.3"
   }
 }
